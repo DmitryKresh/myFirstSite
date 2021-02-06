@@ -1,0 +1,133 @@
+h1 {
+  color: #DE6ADE;
+  text-align: center;
+  font-family: Lobster, sans-serif;
+}
+
+h1.snow1:before {
+  content: '\2744';
+}
+
+h1.snow2:after {
+  content: '\2744';
+}
+
+h2:first-letter {
+  font-size: 55px;
+  color: red;
+  font-style: italic;
+}
+
+h2 {
+  color: blue;
+  text-align: left;
+}
+
+p:first-line{
+  font-style: italic;
+}
+
+p.special1:before {
+  content: '\2192';
+}
+
+p.special2:after {
+  content: '\2190';
+}
+
+p {
+  text-align: justify;
+  font-family: Arsenal, sans-serif;
+}
+
+#poof {
+   font-size: 50px;
+}
+
+.shadow {
+  color: #517fb1;
+  text-shadow:  #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, #cad5e2 3px 3px 0;
+}
+
+body.fon{
+  background: rgb(248, 232,231) !important;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.class1{
+  background: grey;
+}
+
+.class2 {
+  font-family: fantasy;
+}
+
+.class3 .class2{
+  color: red;
+}
+
+.class3 {
+  color: blue;
+}
+
+.class3 .class2 .class1 {
+  font-style: italic;
+}
+
+a:link {
+  color: blue;
+  background: rgb(248, 232,231);
+}
+
+a:visited {
+  color: blueviolet;
+  background: rgb(248, 232,231);
+}
+
+a:hover {
+  color: white;
+  background: indigo;
+}
+
+a:active {
+  color: green;
+  background:orange;
+}
+
+::selection {
+  background: black;
+  color: rgb(211,211,211);
+}
+
+img[title="vicugna"] {
+  border-radius: 10%;
+}
+
+img[title="vicunacrop"] {
+  width: 400px;
+}
+
+img[title="castle"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+a[href="https://yandex.ru"] {
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+  --color-white: white;
+}
+
+a[href="http://htmlbook.ru"] {
+  color: var(--color-white);
+  background-color: sienna;
+}

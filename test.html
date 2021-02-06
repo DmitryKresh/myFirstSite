@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <title>Test</title>
+  </head>
+  <body>
+    <header>
+    <menu class="active">
+      <a href="index.html">Главная</a>
+      <a href="photo.html">Фото</a>
+      <hr>
+    </menu>
+    <h1 class="snow1 snow2">TEST</h1>
+    </header>
+    <h3>Таблица продуктов на складе</h3>
+    <table border="1" width="25%">
+      <colgroup>
+        <col style="background:#D9CED9" span="3">
+      </colgroup>
+      <tr> <!-- первая строка -->
+        <th>id</th>
+        <th>Наименование</th>
+        <th>Колличество</th>
+      </tr>
+      <tr align="center"> <!-- вторая строка -->
+        <td>1</td>
+        <td>Яблоко</td>
+        <td rowspan="2">10</td>
+      </tr>
+      <tr align="center"> <!-- третья строка -->
+        <td>2</td>
+        <td>Груша</td>
+      </tr>
+      <tr align="center"> <!-- четвертая строка -->
+        <td>3</td>
+        <td>Слива</td>
+        <td>14</td>
+      </tr>
+      <tr align="center"> <!-- пятая строка -->
+        <td colspan="2">Всего</td>
+        <td>24</td>
+      </tr>
+    </table>
+    <br>
+    <form>
+      <input type="text" name="log" placeholder="Логин" value=""></input> <br>
+      <input type="password" name="password" placeholder="Пароль" value=""></input> <br>
+      <br>
+      Ваш пол<br>
+      <input type="radio" id="Male" name="gen" value="M"><label for="Male">Муж.</label><br>
+      <input type="radio" id="Female" name="gen" value="F"><label for="Female">Жен.</label></input><br>
+      <br>
+      Ваша профессия<br>
+      <label for="builder">Строитель</label><input value='builder' type="checkbox" id="builder"></input><br>
+      <label for="engineer">Инженер</label><input valut="engineer" type="checkbox" id="engineer"></input><br>
+      <label>Врач<input type="checkbox" id="doctor" value="doctor"></input><br></label>
+      <br>
+      Напишите о себе<br>
+      <textarea type="text" name="comment" maxlength="250" required style="width:20%;height: 150px" value=""></textarea><br>
+      <br>
+      <input type="submit" value="Отправить"></input>
+      <input type="reset" name="11"></input>
+      <br>
+      <label>
+        Кот<input type="radio" value="cat" name="pets">
+      </label><br>
+      <label>Собака<input type="radio" value="dog" name="pets"></label>
+    </form>
+  </body>
+</html>
