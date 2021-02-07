@@ -1,3 +1,8 @@
+body {
+  background: rgb(245, 239, 215);
+	margin: 0;
+}
+
 h1 {
   color: #DE6ADE;
   text-align: center;

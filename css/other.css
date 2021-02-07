@@ -1,0 +1,60 @@
+body {
+    background: rgb(245, 239, 215);
+    margin: 0px auto;
+}
+
+#title {
+    border: 3px solid rgb(81, 127, 177);
+    border-top: 0px;
+    background: rgba(81, 127, 177, 0.8);
+    margin: 0px 150px 0px 150px;
+    padding: 15px;
+    border-radius: 0px 0px 25px 25px;
+    color: rgb(255, 255, 255);
+    font-family: Lobster, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#menu {
+    border: 3px solid rgb(81, 127, 177);
+    border-top: 0px;
+    background: rgba(81, 127, 177, 0.8);
+    margin: 0px 200px 0px 200px;
+    padding: 5px 25px 5px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(240, 193, 98);
+}
+
+#main {
+    border:rgb(255, 255, 255);
+    background: white;
+    margin: 0px 250px 0px;
+    padding: 5px 40px 40px 40px;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;    
+}
+
+figure {
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+}
