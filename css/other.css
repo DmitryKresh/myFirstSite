@@ -24,6 +24,14 @@ body {
     border-radius: 0px 0px 15px 15px;
 }
 
+#main {
+    border:rgb(255, 255, 255);
+    background: white;
+    margin: 0px 250px 0px;
+    padding: 5px 40px 40px 40px;
+    text-align: justify;
+}
+
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -33,14 +41,6 @@ a:hover {
     color: rgb(240, 193, 98);
 }
 
-#main {
-    border:rgb(255, 255, 255);
-    background: white;
-    margin: 0px 250px 0px;
-    padding: 5px 40px 40px 40px;
-    text-align: justify;
-}
-
 h1 {
     text-align: center;
 }
@@ -48,7 +48,8 @@ h1 {
 img {
     display: block;
     margin: 0 auto;
-    width: 50%;    
+    width: 50%; 
+    box-shadow: 5px 5px 20px hsl(0, 50%, 0%);   
 }
 
 figure {
