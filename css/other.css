@@ -26,7 +26,7 @@ body {
 
 #main {
     border:rgb(255, 255, 255);
-    background: white;
+    background: rgb(255, 255, 255);
     margin: 0px 250px 0px;
     padding: 5px 40px 40px 40px;
     text-align: justify;

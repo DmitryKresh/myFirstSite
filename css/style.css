@@ -1,6 +1,6 @@
 body.index {
   background: rgb(245, 239, 215);
-  max-width: 1050px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 
@@ -53,10 +53,6 @@ p {
 .shadow {
   color: #517fb1;
   text-shadow:  #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, #cad5e2 3px 3px 0;
-}
-
-body.fon{
-  background: rgb(245, 239, 215);
 }
 
 a {
