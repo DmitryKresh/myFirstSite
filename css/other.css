@@ -164,6 +164,8 @@ ul {
 }
 
 .mainBlock {
+    outline: 1px solid black;
+    outline-offset: -1px;
     background-color: #00f;
     height: 500px;
     width: 65%;
@@ -171,6 +173,8 @@ ul {
 }
 
 .asideBlock {
+    outline: 1px solid black;
+    outline-offset: -1px;
     background-color: #fff;
     height: 500px;
     width: 35%; 
@@ -178,6 +182,8 @@ ul {
 }
 
 .bottomBlock1 {
+    outline: 1px solid black;
+    outline-offset: -1px;
     background-color: #888;
     height: 250px;
     width: 33.3%;
@@ -185,6 +191,8 @@ ul {
 }
 
 .bottomBlock2 {
+    outline: 1px solid black;
+    outline-offset: -1px;
     background-color: #888;
     width: 33.3%;
     height: 250px;
@@ -192,6 +200,8 @@ ul {
 }
 
 .bottomBlock3 {
+    outline: 1px solid black;
+    outline-offset: -1px;
     background-color: #888;
     width: 33.3%;
     height: 250px;
@@ -199,6 +209,8 @@ ul {
 }
 
 .footerBlock {
+    outline: 1px solid black;
+    outline-offset: -1px;
     width: 100%;
     background-color: #0A0;
     height: 400px;
@@ -208,7 +220,7 @@ ul {
 .mainBlock img {
     height: 400px;
     width: 500px;
-    margin: 40px 190px 10px;
+    margin: 40px 230px 10px;
 }
 
 .mainBlock h1 {
