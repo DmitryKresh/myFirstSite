@@ -156,10 +156,18 @@ ul {
     list-style-image: url(../images/ul.jpg);
 }
 
-.blockTop {
+.topBlock {
     border: 1px solid #000;
     width: 100%;
     min-height: 70px;
-    background: black;
+    background: #000;
     margin-bottom: 10px;
+}
+
+.mainBlock {
+    border: 1px solid #000;
+    background-color: #000;
+    height: 300px;
+    width: 60%;
+    float: left;
 }
