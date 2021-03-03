@@ -161,7 +161,6 @@ ul {
     width: 100%;
     min-height: 70px;
     background: #000;
-    margin-bottom: 10px;
 }
 
 .mainBlock {
@@ -170,4 +169,14 @@ ul {
     height: 300px;
     width: 60%;
     float: left;
+    margin: 10px 10px;
+}
+
+.asideBlock {
+    border: 1px solid #000;
+    background-color: #fff;
+    height: 300px;
+    width: 30%; 
+    float: right;
+    margin: 10px 10px;
 }
