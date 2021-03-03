@@ -159,61 +159,49 @@ ul {
 .topBlock {
     width: 100%;
     float: right;
-    border: 1px solid #000;
     background-color: #222;
     height: 70px;
 }
 
 .mainBlock {
-    border: 1px solid #000;
     background-color: #00f;
     height: 500px;
-    width: 60%;
+    width: 65%;
     float: left;
-    margin: 5px 0px 0px 5px; 
 }
 
 .asideBlock {
-    border: 1px solid #000;
     background-color: #fff;
     height: 500px;
-    width: 32%; 
+    width: 35%; 
     float: right;
-    margin: 5px 5px 0px 0px;
 }
 
 .bottomBlock1 {
-    border: 1px solid #000;
     background-color: #888;
     height: 250px;
-    width: 32%;
-    float: left;
-    margin: 5px 5px;    
+    width: 33.3%;
+    float: left;  
 }
 
 .bottomBlock2 {
-    border: 1px solid #000;
     background-color: #888;
-    width: 32%;
+    width: 33.3%;
     height: 250px;
     float: left;
-    margin: 5px 15px;
 }
 
 .bottomBlock3 {
-    border: 1px solid #000;
     background-color: #888;
-    width: 32%;
+    width: 33.3%;
     height: 250px;
-    float: right;
-    margin: 5px 5px;
+    float: left;
 }
 
 .footerBlock {
     width: 100%;
-    border: 1px solid #000;
     background-color: #0A0;
-    height: 200px;
+    height: 400px;
     float: right;
 }
 
