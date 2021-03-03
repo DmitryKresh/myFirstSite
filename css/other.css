@@ -216,3 +216,15 @@ ul {
     height: 200px;
     float: right;
 }
+
+.mainBlock img {
+    height: 400px;
+    width: 500px;
+    margin: 40px 190px 10px;
+}
+
+.mainBlock h1 {
+    text-align: center;
+    color: yellow;
+    margin: 10px 0px 0px;
+}
