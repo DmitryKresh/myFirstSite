@@ -157,10 +157,11 @@ ul {
 }
 
 .topBlock {
-    border: 1px solid #000;
     width: 100%;
-    min-height: 70px;
-    background: #222;
+    float: right;
+    border: 1px solid #000;
+    background-color: #222;
+    height: 70px;
 }
 
 .mainBlock {
