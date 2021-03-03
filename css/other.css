@@ -160,12 +160,12 @@ ul {
     border: 1px solid #000;
     width: 100%;
     min-height: 70px;
-    background: #000;
+    background: #222;
 }
 
 .mainBlock {
     border: 1px solid #000;
-    background-color: #000;
+    background-color: #00f;
     height: 300px;
     width: 60%;
     float: left;
@@ -211,7 +211,7 @@ ul {
 .footerBlock {
     width: 100%;
     border: 1px solid #000;
-    background-color: #050;
+    background-color: #0A0;
     height: 200px;
     float: right;
 }
