@@ -207,3 +207,11 @@ ul {
     float: left;
     margin: 5px 20px;
 }
+
+.footer {
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #050;
+    height: 200px;
+    float: right;
+}
