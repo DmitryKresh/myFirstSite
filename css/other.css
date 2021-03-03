@@ -155,3 +155,11 @@ ul {
 .listImg {
     list-style-image: url(../images/ul.jpg);
 }
+
+.blockTop {
+    border: 1px solid #000;
+    width: 100%;
+    min-height: 70px;
+    background: black;
+    margin-bottom: 10px;
+}
