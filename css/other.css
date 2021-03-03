@@ -189,3 +189,12 @@ ul {
     float: left;
     margin: 5px 5px;    
 }
+
+.bottomBlock2 {
+    border: 1px solid #000;
+    background-color: #888;
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin: 5px 5px;
+}
