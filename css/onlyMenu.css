@@ -19,27 +19,34 @@ ul {
 .vertical a:hover {
     background: #fff;
     color: #000;
-}
-
-.horizontal {
-    position: absolute;
-    top: 220px;
-    left: 358px;
+    transform: scale(1.2);
+    transition-duration: 1s;
 }
 
 .horizontal a {
     border: 1px solid #000;
+    border-radius: 4px;
     background-color: #000;
     color: #fff;
-    border-radius: 4px;
-    display: inline;
-    margin: 0px 5px 0px;
-    padding: 5px;
-    text-align: center;
     width: 80px;
     height: 20px;
+    padding: 5px;
+    margin: 5px 0px 0px;
+    text-align: center;
+    display: inline-block;
 }
 
-.horizontal li {
+.horizontal a:hover {
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    width: 80px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px 0px 0px;
+    text-align: center;
     display: inline-block;
+    transform: rotate(180deg);
+    transition-duration: 1s;
 }
