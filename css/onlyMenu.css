@@ -21,25 +21,25 @@ ul {
     color: #000;
 }
 
-.horizontal a {
-    border: 1px solid #000;
-    background: #000;
-    display: inline-block;
-    position: relative;
-    float: right;
-    top: -164px;
-    right: 560px;
-    padding: 5px;
-    display: inline-block;
-    margin: 5px 5px 0px;
-    height: 20px;
-    width: 80px;
-    text-align: center;
-    border-radius: 4px;
-    color: #fff;
+.horizontal {
+    position: absolute;
+    top: 220px;
+    left: 358px;
 }
 
-.horizontal a:hover {
-    background-color: #fff;
-    color: #000;
+.horizontal a {
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    display: inline;
+    margin: 0px 5px 0px;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+}
+
+.horizontal li {
+    display: inline-block;
 }

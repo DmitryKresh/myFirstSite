@@ -133,3 +133,7 @@ a[href="http://htmlbook.ru"] {
   color: var(--color-white);
   background-color: sienna;
 }
+
+.centerText {
+  text-align: center;
+}
