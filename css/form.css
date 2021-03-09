@@ -1,5 +1,9 @@
 body {
     background-color: #561791;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+    color: #fff;
 }
 
 h1 {
