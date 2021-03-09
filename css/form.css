@@ -13,3 +13,8 @@ h1 {
     font-size: 3em;
     padding-bottom: 5px;
 }
+
+form {
+    font-size: 18px;
+    text-align: left;
+}
