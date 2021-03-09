@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    /*align-items: flex-start; */
+}
+
+.main-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 25%;
+}
+
+.main div, .main-2 div {
+    border: 1px solid #00f;
+    padding: 10px;
+}
+
+.box-1 {
+    flex: 2;
+    order: 2;
+}
+
+.box-2 {
+    flex: 1;
+    order: 3;
+}
+
+.box-3 {
+    flex: 3;
+    order: 1;
+}
