@@ -35,6 +35,15 @@ input[type="submit"] {
     width: 100px;
     height: 30px;
     margin-left: 224px;
-    background-color: #00a;
+    background-color: #f7b90f;
     color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f7b90f;
 }
